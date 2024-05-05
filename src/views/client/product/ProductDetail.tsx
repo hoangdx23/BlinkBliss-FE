@@ -403,7 +403,7 @@ const ProductDetail = () => {
                                   <div className="info-block">
                                     <div className="info-block-content">
                                       <div className="info-block-title">
-                                        MỌI THẮC MẮC VUI LÒNG LIÊN HỆ ZALO : 0332573175
+                                        MỌI THẮC MẮC VUI LÒNG LIÊN HỆ ZALO : 0988328867
                                       </div>
                                     </div>
                                   </div>
@@ -416,37 +416,6 @@ const ProductDetail = () => {
                     </div>
                   </div>
                 </div>
-
-                <div className="product-blocks-details product-blocks-443 grid-rows">
-                  <div className="grid-row grid-row-443-1">
-                    <div className="grid-cols">
-                      <div className="grid-col grid-col-443-1-1">
-                        <div className="grid-items">
-                          <div className="grid-item grid-item-443-1-1-1">
-                            <div className="module module-info_blocks module-info_blocks-361">
-                              <div className="module-body">
-                                <div className="module-item module-item-1 info-blocks info-blocks-icon">
-                                  <div className="info-block">
-                                    <div className="info-block-content">
-                                      <div className="info-block-title">
-                                        KHUYẾN MẠI ĐẶC BIỆT EXTRA SALE
-                                      </div>
-                                      <div className="info-block-text">
-                                        Giảm thêm 200.000đ với đơn hàng từ 4
-                                        triệu. Nhập mã: MYS200K
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
 
                 <div className="product-detail  size">
                   <p>Kích Cỡ</p>
@@ -462,23 +431,7 @@ const ProductDetail = () => {
                       </button>
                     ))}
                   </div>
-                  <div className="all-colors">
-                    <p>Màu Sắc</p>
-                    <div className="color-buttons">
-                      {[...uniqueColors].map((color: any, index) => (
-                        <button
-                          key={index}
-                          className={`color-button all-color ${selectedColor === color ? "active" : ""
-                            } ${selectedSizeColors.includes(color)
-                              ? "selected-size"
-                              : ""
-                            }`}
-                          style={{ backgroundColor: color }}
-                          onClick={() => handleColorChange(color)}
-                        ></button>
-                      ))}
-                    </div>
-                  </div>
+                  
                   <div className="remaining-quantity mt-3">
                     <p>
                       {selectedSize &&
