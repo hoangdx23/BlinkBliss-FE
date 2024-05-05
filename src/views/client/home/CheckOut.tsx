@@ -826,7 +826,7 @@ const CheckOut = () => {
                     </td>
                   </tr>
                   <div className="payment_item">
-                    <div className="payment_item active">
+                    {/* <div className="payment_item active">
                       <form className="row mt-3">
                         <label htmlFor="" className="col-8 m-2">
                           Chọn Mã Khuyến Mãi
@@ -894,7 +894,7 @@ const CheckOut = () => {
                           }
                         />
                       </form>
-                    </div>
+                    </div> */}
                     <div className="payment_item active">
                       <form className="row mt-3">
                         <label htmlFor="" className="col-8 m-2">
@@ -1010,10 +1010,10 @@ const CheckOut = () => {
                           Việc đặt hàng của bạn đồng thời chấp nhận{" "}
                         </label>
                         <a href="#"> điều khoản và dịch vụ*</a>của chúng tôi.
-                        <label htmlFor="f-option4">
+                        {/* <label htmlFor="f-option4">
                           ** Đối với đơn hàng nội thành là 25k, ngoại thành là
                           40k
-                        </label>
+                        </label> */}
                       </div>
                     </div>
                     <div className="card_area col-6 align-items-center">

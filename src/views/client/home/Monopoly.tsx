@@ -16,11 +16,11 @@ const Monopoly = () => {
                         <div className="row">
                             <div className="col-lg-4 mb-4">
                                 <div className="post-entry-alt">
-                                    <a href="single.html" className="img-link"><img src="https://media.gq.com/photos/646fd8dc1fa990bc7018eb25/3:4/w_640,c_limit/Layer_17.jpg" alt="Image" className="img-fluid" /></a>
+                                    <a href="single.html" className="img-link"><img src="https://prod-out-res.popmart.com/cms/CARMEN_97c7d96be2.jpg?updated_at=2023-03-07T09:18:57.429Z?x-oss-process=image/format,webp" alt="Image" className="img-fluid" /></a>
                                     <div className="excerpt">
                                         <h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
                                         <div className="post-meta align-items-center text-left clearfix">
-                                            <figure className="author-figure mb-0 me-3 float-start"><img src="https://media.gq.com/photos/646fd8dc1fa990bc7018eb25/3:4/w_640,c_limit/Layer_17.jpg" alt="Image" className="img-fluid" /></figure>
+                                            <figure className="author-figure mb-0 me-3 float-start"><img src="https://prod-out-res.popmart.com/cms/CARMEN_97c7d96be2.jpg?updated_at=2023-03-07T09:18:57.429Z?x-oss-process=image/format,webp" alt="Image" className="img-fluid" /></figure>
                                             <span className="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
                                             <span>&nbsp;-&nbsp; July 19, 2019</span>
                                         </div>
@@ -33,11 +33,11 @@ const Monopoly = () => {
                             </div>
                             <div className="col-lg-4 mb-4">
                                 <div className="post-entry-alt">
-                                    <a href="single.html" className="img-link"><img src="https://media.gq.com/photos/646fd8dc1fa990bc7018eb25/3:4/w_640,c_limit/Layer_17.jpg" alt="Image" className="img-fluid" /></a>
+                                    <a href="single.html" className="img-link"><img src="https://prod-out-res.popmart.com/cms/CARMEN_97c7d96be2.jpg?updated_at=2023-03-07T09:18:57.429Z?x-oss-process=image/format,webp" alt="Image" className="img-fluid" /></a>
                                     <div className="excerpt">
                                         <h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
                                         <div className="post-meta align-items-center text-left clearfix">
-                                            <figure className="author-figure mb-0 me-3 float-start"><img src="https://media.gq.com/photos/646fd8dc1fa990bc7018eb25/3:4/w_640,c_limit/Layer_17.jpg" alt="Image" className="img-fluid" /></figure>
+                                            <figure className="author-figure mb-0 me-3 float-start"><img src="https://prod-out-res.popmart.com/cms/CARMEN_97c7d96be2.jpg?updated_at=2023-03-07T09:18:57.429Z?x-oss-process=image/format,webp" alt="Image" className="img-fluid" /></figure>
                                             <span className="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
                                             <span>&nbsp;-&nbsp; July 19, 2019</span>
                                         </div>
@@ -50,11 +50,11 @@ const Monopoly = () => {
                             </div>
                             <div className="col-lg-4 mb-4">
                                 <div className="post-entry-alt">
-                                    <a href="single.html" className="img-link"><img src="https://media.gq.com/photos/646fd8dc1fa990bc7018eb25/3:4/w_640,c_limit/Layer_17.jpg" alt="Image" className="img-fluid" /></a>
+                                    <a href="single.html" className="img-link"><img src="https://prod-out-res.popmart.com/cms/CARMEN_97c7d96be2.jpg?updated_at=2023-03-07T09:18:57.429Z?x-oss-process=image/format,webp" alt="Image" className="img-fluid" /></a>
                                     <div className="excerpt">
                                         <h2><a href="single.html">Startup vs corporate: What job suits you best?</a></h2>
                                         <div className="post-meta align-items-center text-left clearfix">
-                                            <figure className="author-figure mb-0 me-3 float-start"><img src="https://media.gq.com/photos/646fd8dc1fa990bc7018eb25/3:4/w_640,c_limit/Layer_17.jpg" alt="Image" className="img-fluid" /></figure>
+                                            <figure className="author-figure mb-0 me-3 float-start"><img src="https://prod-out-res.popmart.com/cms/CARMEN_97c7d96be2.jpg?updated_at=2023-03-07T09:18:57.429Z?x-oss-process=image/format,webp" alt="Image" className="img-fluid" /></figure>
                                             <span className="d-inline-block mt-1">By <a href="#">David Anderson</a></span>
                                             <span>&nbsp;-&nbsp; July 19, 2019</span>
                                         </div>

@@ -354,13 +354,13 @@ const Cart = () => {
                     <th>#</th>
                     <th scope="col">Hình Ảnh</th>
                     <th scope="col">Tên Sản Phẩm</th>
-                    <th scope="col">Số lượng còn lại</th>
-
-                    <th scope="col">Kích Cỡ</th>
+                    {/* <th scope="col">Số lượng còn lại</th> */}
+                    {/* <th scope="col">Kích Cỡ</th> */}
                     <th scope="col">Màu Sắc</th>
                     <th scope="col">Số Lượng</th>
                     <th scope="col">Giá</th>
                     <th scope="col">Tạm Tính</th>
+                    <th scope="col"></th>
                   </tr>
                 </thead>
                 <tbody>
@@ -379,11 +379,11 @@ const Cart = () => {
                       <td>
                         <h6>{item?.name}</h6>
                       </td>
+                      {/* <td>
+                        <h5>{item?.size}</h5>
+                      </td> */}
                       <td>
-                        <h5>{item.size}</h5>
-                      </td>
-                      <td>
-                        <div style={{ display: "flex", alignItems: "center" }}>
+                        {/* <div style={{ display: "flex", alignItems: "center" }}>
                           <div style={{ display: "flex" }}>
                             <button
                               style={{
@@ -393,9 +393,9 @@ const Cart = () => {
                                 marginRight: "5px",
                               }}
                             ></button>
-                            <h5>{item?.color}</h5>
                           </div>
-                        </div>
+                        </div> */}
+                            <h5>{item?.color}</h5>
                       </td>
                       <td>
                         <h5>{item.quantity}</h5>

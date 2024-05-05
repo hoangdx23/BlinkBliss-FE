@@ -15,7 +15,7 @@ const Discover = () => {
               style={{ lineHeight: "50px" }}
             >
               Hãy cùng tôi khám phá những ưu đãi độc quyền chỉ có tại{" "}
-              <div className="text-logo">ShiftOes</div>
+              <div className="text-logo">BlinkBliss</div>
             </div>
             <div className="row d-flex justify-content-center">
               <div className="col-xxl-3 col-xl-3 col-md-3 col-sm-6 col-12 text-center">
@@ -26,7 +26,7 @@ const Discover = () => {
                   </h4>
                 </div>
               </div>
-              <div className="col-xxl-3 col-xl-3 col-md-3 col-sm-6 col-12 text-center">
+              {/* <div className="col-xxl-3 col-xl-3 col-md-3 col-sm-6 col-12 text-center">
                 <div className="feature-card">
                   <img src="/src/assets/images/features/responsive-design.svg" />
                   <h4 className="text-uppercase fw-bold text-secondary pt-4">
@@ -34,7 +34,7 @@ const Discover = () => {
                     <br /> 22%
                   </h4>
                 </div>
-              </div>
+              </div> */}
               <div className="col-xxl-3 col-xl-3 col-md-3 col-sm-6 col-12 text-center">
                 <div className="feature-card">
                   <img src="/src/assets/images/features/freindly-support.svg" />

@@ -23,13 +23,13 @@ const Banner = () => {
                                 {/* Dịch vụ chuyên nghiệp sửa chữa, làm mới, và giặt giày toàn quốc<br> */}
                                 <div className="highlight-hero-title position-relative">
                                     <div className="highlight-hero-title-inner">
-                                        ShiftOes
+                                        BlinkBliss
                                     </div>
                                 </div>
                                 Dịch vụ vô tận
                             </div>
-                            <p className="hero-subtitle fs-5 fw-normal mx-auto mb-0">ShiftOes ra đời vào năm 2023, với tâm huyết và
-                                đam mê về việc cung cấp dịch vụ bán, sửa giày cho người dùng trên khắp
+                            <p className="hero-subtitle fs-5 fw-normal mx-auto mb-0">BlinkBliss ra đời vào năm 2023, với tâm huyết và
+                                đam mê về việc cung cấp dịch vụ bán blindbox cho người dùng trên khắp
                                 cả nước.</p>
                             <div className="hero-action d-flex flex-wrap justify-content-center gap-3">
                                 {/* <a href="#" className="btn btn-primary btn-hover-secondery text-capitalize fw-normal">Đọc thêm &gt;</a> */}

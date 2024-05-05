@@ -110,7 +110,7 @@ const ProductSale = () => {
   }
   return (
     <div className="container">
-      <section className="our-team position-relative pt-2">
+      {/* <section className="our-team position-relative pt-2">
         <div className="container_home">
           <div>
             <div className="d-flex justify-content-between pb-5">
@@ -206,7 +206,7 @@ const ProductSale = () => {
             </Slider>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

@@ -13442,7 +13442,7 @@ fieldset:disabled .btn {
 .scrollspy-icon .pulse::before {
   position: absolute;
   content: "";
-  background-image: url(/src/assets/images/hero/scrollspy-line.svg);
+  background-image: url(./assets/images/Masked_Secret_Figure-Skullpanda-Skullpanda-POP_Mart-trampt-346548o-removebg-preview.png);
   background-repeat: no-repeat;
   height: 180px;
   width: 100%;
@@ -23496,4 +23496,7 @@ select::-ms-expand {
   border: 1px solid #cccccc;
   -ms-word-break: normal;
   word-break: normal;
+}
+.highlight-hero-title.position-relative {
+  width: 550px !important;
 }

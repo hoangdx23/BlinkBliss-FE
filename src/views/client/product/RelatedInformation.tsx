@@ -32,6 +32,7 @@ const RelatedInformation = () => {
                     Tránh đi mưa ngâm nước lâu và không phơi giày trực tiếp dưới ánh nắng mặt trời mạnh.
                 </p>
             </div> */}
+            <div></div>
         </div>
     )
 }
