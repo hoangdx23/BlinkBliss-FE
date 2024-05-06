@@ -215,7 +215,7 @@ const ProductDetail = () => {
           messageApi.error({
             type: "error",
             content:
-              "Vui lòng chọn màu và size trước khi thêm vào giỏ hàng !!!",
+              "Vui lòng loại trước khi thêm vào giỏ hàng !!!",
             className: "custom-class",
             style: {
               margin: "10px",
@@ -435,7 +435,8 @@ const ProductDetail = () => {
                   <div className="remaining-quantity mt-3">
                     <p>
                       {selectedSize &&
-                        `Tổng số lượng sản phẩm cho kích thước ${selectedSize}: ${totalQuantityForSelectedSize !== null
+                        `Tổng số lượng sản phẩm cho loại
+                         ${selectedSize}: ${totalQuantityForSelectedSize !== null
                           ? totalQuantityForSelectedSize
                           : "Loading..."
                         }`}
@@ -461,6 +462,7 @@ const ProductDetail = () => {
                     </div>
                   )}
                 </div>
+
                 <div className="product_count flex-1">
                   <label className="quantity">Số Lượng:</label>
                   <div className="quantity-input">

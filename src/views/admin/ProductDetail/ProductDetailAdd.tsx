@@ -113,7 +113,7 @@ const ProductAdd = () => {
                   )}
                 </div>
 
-                <div className="mb-3">
+                {/* <div className="mb-3">
                   <label htmlFor="productColor" className="form-label">
                     Màu Sắc
                   </label>
@@ -129,7 +129,7 @@ const ProductAdd = () => {
                         : "Giá trị phải lớn hơn 0."}
                     </div>
                   )}
-                </div>
+                </div> */}
 
                 <div className="mb-3">
                   <label htmlFor="productQuantity" className="form-label">

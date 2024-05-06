@@ -107,7 +107,7 @@ const Signup = () => {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="login_box_img">
-                                <img className="img-fluid" src="https://we25.vn/media/uploads/2016/08/converse-chuck-ii-shield-hi-white-trainers.jpg" alt="" />
+                                <img className="img-fluid" src="https://res.cloudinary.com/dwxumu69m/image/upload/v1714989545/samples/animals/pvby3irpmrimmboeniio.jpg" alt="" />
                                 <div className="hover">
                                     <h4>New to our website?</h4>
                                     <p>
