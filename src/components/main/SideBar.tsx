@@ -17,8 +17,8 @@ const SideBar = () => {
                         <img src="/src/assets/images/logo.png" width="180" alt="" />
                     </Link>
                     <div className="logo">
-              
-            </div>
+
+                    </div>
                     <div className="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
                         <i className="ti ti-x fs-8"></i>
                     </div>
