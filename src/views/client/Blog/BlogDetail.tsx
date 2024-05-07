@@ -15,7 +15,6 @@ const BlogDetail = () => {
                 </div>
             </div>
         </section>
-            
             <section className="blog_area single-post-area section_gap">
                 <div className="container">
                     <div className="row">
@@ -23,7 +22,7 @@ const BlogDetail = () => {
                             <div className="single-post row">
                                 <div className="col-lg-12">
                                     <div className="feature-img">
-                                        <img className="img-fluid" src="img/blog/feature-img1.jpg" alt=""/>
+                                        <img className="img-fluid" src="img/blog/feature-img1.jpg" alt="" />
                                     </div>
                                 </div>
                                 <div className="col-lg-3  col-md-3">
@@ -79,10 +78,10 @@ const BlogDetail = () => {
                                     </div>
                                     <div className="row">
                                         <div className="col-6">
-                                            <img className="img-fluid" src="img/blog/post-img1.jpg" alt=""/>
+                                            <img className="img-fluid" src="img/blog/post-img1.jpg" alt="" />
                                         </div>
                                         <div className="col-6">
-                                            <img className="img-fluid" src="img/blog/post-img2.jpg" alt=""/>
+                                            <img className="img-fluid" src="img/blog/post-img2.jpg" alt="" />
                                         </div>
                                         <div className="col-lg-12 mt-25">
                                             <p>
@@ -105,7 +104,7 @@ const BlogDetail = () => {
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-12 nav-left flex-row d-flex justify-content-start align-items-center">
                                         <div className="thumb">
-                                            <a href="#"><img className="img-fluid" src="img/blog/prev.jpg" alt=""/></a>
+                                            <a href="#"><img className="img-fluid" src="img/blog/prev.jpg" alt="" /></a>
                                         </div>
                                         <div className="arrow">
                                             <a href="#"><span className="lnr text-white lnr-arrow-left"></span></a>
@@ -128,7 +127,7 @@ const BlogDetail = () => {
                                             <a href="#"><span className="lnr text-white lnr-arrow-right"></span></a>
                                         </div>
                                         <div className="thumb">
-                                            <a href="#"><img className="img-fluid" src="img/blog/next.jpg" alt=""/></a>
+                                            <a href="#"><img className="img-fluid" src="img/blog/next.jpg" alt="" /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -139,7 +138,7 @@ const BlogDetail = () => {
                                     <div className="single-comment justify-content-between d-flex">
                                         <div className="user justify-content-between d-flex">
                                             <div className="thumb">
-                                                <img src="img/blog/c1.jpg" alt=""/>
+                                                <img src="img/blog/c1.jpg" alt="" />
                                             </div>
                                             <div className="desc">
                                                 <h5><a href="#">Emilly Blunt</a></h5>
@@ -158,7 +157,7 @@ const BlogDetail = () => {
                                     <div className="single-comment justify-content-between d-flex">
                                         <div className="user justify-content-between d-flex">
                                             <div className="thumb">
-                                                <img src="img/blog/c2.jpg" alt=""/>
+                                                <img src="img/blog/c2.jpg" alt="" />
                                             </div>
                                             <div className="desc">
                                                 <h5><a href="#">Elsie Cunningham</a></h5>
@@ -177,7 +176,7 @@ const BlogDetail = () => {
                                     <div className="single-comment justify-content-between d-flex">
                                         <div className="user justify-content-between d-flex">
                                             <div className="thumb">
-                                                <img src="img/blog/c3.jpg" alt=""/>
+                                                <img src="img/blog/c3.jpg" alt="" />
                                             </div>
                                             <div className="desc">
                                                 <h5><a href="#">Annie Stephens</a></h5>
@@ -196,7 +195,7 @@ const BlogDetail = () => {
                                     <div className="single-comment justify-content-between d-flex">
                                         <div className="user justify-content-between d-flex">
                                             <div className="thumb">
-                                                <img src="img/blog/c4.jpg" alt=""/>
+                                                <img src="img/blog/c4.jpg" alt="" />
                                             </div>
                                             <div className="desc">
                                                 <h5><a href="#">Maria Luna</a></h5>
@@ -215,7 +214,7 @@ const BlogDetail = () => {
                                     <div className="single-comment justify-content-between d-flex">
                                         <div className="user justify-content-between d-flex">
                                             <div className="thumb">
-                                                <img src="img/blog/c5.jpg" alt=""/>
+                                                <img src="img/blog/c5.jpg" alt="" />
                                             </div>
                                             <div className="desc">
                                                 <h5><a href="#">Ina Hayes</a></h5>
@@ -237,16 +236,16 @@ const BlogDetail = () => {
                                     <div className="form-group form-inline">
                                         <div className="form-group col-lg-6 col-md-6 name">
                                             <input type="text" className="form-control" id="name" placeholder="Enter Name" onfocus="this.placeholder = ''"
-                                                onblur="this.placeholder = 'Enter Name'"/>
+                                                onblur="this.placeholder = 'Enter Name'" />
                                         </div>
                                         <div className="form-group col-lg-6 col-md-6 email">
                                             <input type="email" className="form-control" id="email" placeholder="Enter email address"
-                                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'"/>
+                                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" />
                                         </div>
                                     </div>
                                     <div className="form-group">
                                         <input type="text" className="form-control" id="subject" placeholder="Subject" onfocus="this.placeholder = ''"
-                                            onblur="this.placeholder = 'Subject'"/>
+                                            onblur="this.placeholder = 'Subject'" />
                                     </div>
                                     <div className="form-group">
                                         <textarea className="form-control mb-10" rows="5" name="message" placeholder="Messege"
@@ -260,70 +259,70 @@ const BlogDetail = () => {
                             <div className="blog_right_sidebar">
                                 <aside className="single_sidebar_widget search_widget">
                                     <div className="input-group">
-                                        <input type="text" className="form-control" placeholder="Search Posts" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Posts'"/>
-                                            <span className="input-group-btn">
-                                                <button className="btn btn-default" type="button"><i className="lnr lnr-magnifier"></i></button>
-                                            </span>
+                                        <input type="text" className="form-control" placeholder="Search Posts" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Posts'" />
+                                        <span className="input-group-btn">
+                                            <button className="btn btn-default" type="button"><i className="lnr lnr-magnifier"></i></button>
+                                        </span>
                                     </div>
                                     <div className="br"></div>
                                 </aside>
                                 <aside className="single_sidebar_widget author_widget">
-                                    <img className="author_img rounded-circle" src="img/blog/author.png" alt=""/>
-                                        <h4>Charlie Barber</h4>
-                                        <p>Senior blog writer</p>
-                                        <div className="social_icon">
-                                            <a href="#"><i className="fa fa-facebook"></i></a>
-                                            <a href="#"><i className="fa fa-twitter"></i></a>
-                                            <a href="#"><i className="fa fa-github"></i></a>
-                                            <a href="#"><i className="fa fa-behance"></i></a>
-                                        </div>
-                                        <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you
-                                            should have to spend money on boot camp when you can get. Boot camps have itssuppor
-                                            ters andits detractors.</p>
-                                        <div className="br"></div>
+                                    <img className="author_img rounded-circle" src="img/blog/author.png" alt="" />
+                                    <h4>Charlie Barber</h4>
+                                    <p>Senior blog writer</p>
+                                    <div className="social_icon">
+                                        <a href="#"><i className="fa fa-facebook"></i></a>
+                                        <a href="#"><i className="fa fa-twitter"></i></a>
+                                        <a href="#"><i className="fa fa-github"></i></a>
+                                        <a href="#"><i className="fa fa-behance"></i></a>
+                                    </div>
+                                    <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you
+                                        should have to spend money on boot camp when you can get. Boot camps have itssuppor
+                                        ters andits detractors.</p>
+                                    <div className="br"></div>
                                 </aside>
                                 <aside className="single_sidebar_widget popular_post_widget">
                                     <h3 className="widget_title">Popular Posts</h3>
                                     <div className="media post_item">
-                                        <img src="img/blog/popular-post/post1.jpg" alt="post"/>
-                                            <div className="media-body">
-                                                <a href="blog-details.html">
-                                                    <h3>Space The Final Frontier</h3>
-                                                </a>
-                                                <p>02 Hours ago</p>
-                                            </div>
+                                        <img src="img/blog/popular-post/post1.jpg" alt="post" />
+                                        <div className="media-body">
+                                            <a href="blog-details.html">
+                                                <h3>Space The Final Frontier</h3>
+                                            </a>
+                                            <p>02 Hours ago</p>
+                                        </div>
                                     </div>
                                     <div className="media post_item">
-                                        <img src="img/blog/popular-post/post2.jpg" alt="post"/>
-                                            <div className="media-body">
-                                                <a href="blog-details.html">
-                                                    <h3>The Amazing Hubble</h3>
-                                                </a>
-                                                <p>02 Hours ago</p>
-                                            </div>
+                                        <img src="img/blog/popular-post/post2.jpg" alt="post" />
+                                        <div className="media-body">
+                                            <a href="blog-details.html">
+                                                <h3>The Amazing Hubble</h3>
+                                            </a>
+                                            <p>02 Hours ago</p>
+                                        </div>
                                     </div>
                                     <div className="media post_item">
-                                        <img src="img/blog/popular-post/post3.jpg" alt="post"/>
-                                            <div className="media-body">
-                                                <a href="blog-details.html">
-                                                    <h3>Astronomy Or Astrology</h3>
-                                                </a>
-                                                <p>03 Hours ago</p>
-                                            </div>
+                                        <img src="img/blog/popular-post/post3.jpg" alt="post" />
+                                        <div className="media-body">
+                                            <a href="blog-details.html">
+                                                <h3>Astronomy Or Astrology</h3>
+                                            </a>
+                                            <p>03 Hours ago</p>
+                                        </div>
                                     </div>
                                     <div className="media post_item">
-                                        <img src="img/blog/popular-post/post4.jpg" alt="post"/>
-                                            <div className="media-body">
-                                                <a href="blog-details.html">
-                                                    <h3>Asteroids telescope</h3>
-                                                </a>
-                                                <p>01 Hours ago</p>
-                                            </div>
+                                        <img src="img/blog/popular-post/post4.jpg" alt="post" />
+                                        <div className="media-body">
+                                            <a href="blog-details.html">
+                                                <h3>Asteroids telescope</h3>
+                                            </a>
+                                            <p>01 Hours ago</p>
+                                        </div>
                                     </div>
                                     <div className="br"></div>
                                 </aside>
                                 <aside className="single_sidebar_widget ads_widget">
-                                    <a href="#"><img className="img-fluid" src="img/blog/add.jpg" alt=""/></a>
+                                    <a href="#"><img className="img-fluid" src="img/blog/add.jpg" alt="" /></a>
                                     <div className="br"></div>
                                 </aside>
                                 <aside className="single_sidebar_widget post_category_widget">
@@ -386,7 +385,7 @@ const BlogDetail = () => {
                                                 <div className="input-group-text"><i className="fa fa-envelope" aria-hidden="true"></i></div>
                                             </div>
                                             <input type="text" className="form-control" id="inlineFormInputGroup" placeholder="Enter email"
-                                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email'"/>
+                                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email'" />
                                         </div>
                                         <a href="#" className="bbtns">Subcribe</a>
                                     </div>

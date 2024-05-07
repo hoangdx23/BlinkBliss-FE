@@ -83,6 +83,7 @@ const CategoryAdd: React.FC = () => {
                             name="name"
                             rules={[{ required: true, message: 'Vui lòng nhập tên Thương Hiệu!' }, { min: 3, message: "ít nhất 3 ký tự" },]}
                         >
+
                             <Input />
                         </Form.Item>
                         <Form.Item
