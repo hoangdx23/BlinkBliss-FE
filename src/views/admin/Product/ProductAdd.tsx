@@ -31,7 +31,7 @@ const ProductAdd: React.FC = () => {
       data.append("folder", "portfolio");
 
       const takeData = await axios
-        .post(`https://api.cloudinary.com/v1_1/ddbdu6zip/image/upload`, data)
+        .post(`http://localhost:3000/products`, data)
         .then((data: any) => data);
 
       return takeData.data.secure_url;
@@ -110,7 +110,7 @@ const ProductAdd: React.FC = () => {
             <div className="card-body">
               <h5 className="card-title text-uppercase add-new p-4 border-1 fw-semibold mb-4">Thêm Sản Phẩm</h5>
               <Form onFinish={handleSubmit(onSubmit)} className="row custom-form">
-                
+
                 <div className="mb-3 col-md-8 col-sm-12">
                   <label htmlFor="productName" className="form-label">
                     Tên sản phẩm
